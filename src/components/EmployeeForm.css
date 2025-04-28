@@ -1,49 +1,47 @@
-.employee-form-container {
-  max-width: 500px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background: #f1f1f1;
-  border-radius: 8px;
+.employee-form {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.employee-form {
-  display: flex;
-  flex-direction: column;
+.employee-form h2 {
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .employee-form input {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  font-size: 1rem;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-.employee-form button {
-  padding: 0.5rem;
-  font-size: 1rem;
-  background-color: #4caf50;
+.add-button {
+  background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-.employee-form button:hover {
-  background-color: #45a049;
-}
-
-.employee-list {
-  margin-top: 2rem;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 6px;
-}
-
-.employee-list ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.employee-list li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #ccc;
+.add-button:hover {
+  background-color: #0056b3;
 }
